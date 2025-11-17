@@ -81,7 +81,7 @@ body {
 /* Desktop size */
 @media screen and (width < 500px) {
   .grid-container {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "red blue"
