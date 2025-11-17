@@ -79,19 +79,20 @@ body {
 } */
 
 /* Desktop size */
-/* @media screen and (width > 1000px) {
+@media screen and (width < 500px) {
   .grid-container {
     text-decoration: underline;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "red    red    yellow yellow yellow"
-    "green  green  green  blue blue"
-    "indigo indigo violet violet violet"
-    "black  black  black  black black";
+    "red blue"
+    "green  yellow"
+    "violet black";
   }
 
   #orange {
     display: none;
   } 
-    #
-} */
+  #indigo {
+    display: none;
+  }
+}
