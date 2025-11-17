@@ -28,7 +28,7 @@ body {
   grid-area: blue;
 }
 #indigo{
-  background-color:indigo;
+  background-color: magenta;
   grid-area:indigo;
 }
 #violet{
@@ -62,7 +62,7 @@ body {
 }
 
 /* Tablet size */
-@media screen and (width < 700px) {
+/* @media screen and (width < 700px) {
   #indigo {
     text-decoration: line-through;
     background-color: coral;
@@ -76,10 +76,10 @@ body {
     "indigo indigo indigo violet"
     "black black black black";
   }
-}
+} */
 
 /* Desktop size */
-@media screen and (width > 1000px) {
+/* @media screen and (width > 1000px) {
   .grid-container {
     text-decoration: underline;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -92,5 +92,6 @@ body {
 
   #orange {
     display: none;
-  }
-}
+  } 
+    #
+} */
