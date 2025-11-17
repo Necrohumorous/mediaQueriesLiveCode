@@ -44,6 +44,8 @@ body {
 .grid-container div {
     text-align:center;
     border: 2px solid black;
+    display: grid;
+    align-items: center;
 }
  
 .grid-container {
@@ -57,4 +59,38 @@ body {
   "black  black  black  black";
   width: 100vw;
   height: 100vh;
+}
+
+/* Tablet size */
+@media screen and (width < 700px) {
+  #indigo {
+    text-decoration: line-through;
+    background-color: coral;
+  }
+
+  .grid-container {
+    grid-template-areas:
+    "red red red red"
+    "orange orange yellow yellow"
+    "green green blue blue"
+    "indigo indigo indigo violet"
+    "black black black black";
+  }
+}
+
+/* Desktop size */
+@media screen and (width > 1000px) {
+  .grid-container {
+    text-decoration: underline;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "red    red    yellow yellow yellow"
+    "green  green  green  blue blue"
+    "indigo indigo violet violet violet"
+    "black  black  black  black black";
+  }
+
+  #orange {
+    display: none;
+  }
 }
